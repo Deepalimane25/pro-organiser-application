@@ -1,6 +1,6 @@
 import React, { useState,useContext } from "react";
-import styles from "./CreateBoard.module.css";
-import { addBoard } from "../../Funct_Reuse/Functions";
+import styles from "./CreateBoard.css";
+import { addBoard } from "../../Funct_Reuse/Function";
 import Loader from "../Modals/Loader/Loader";
 import {AuthContext} from '../../Context/Authentication';
 

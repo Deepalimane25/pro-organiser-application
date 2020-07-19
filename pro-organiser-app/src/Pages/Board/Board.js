@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
-import styles from './Board.module.css';
-import {addColumn,getBoard,getColumns,deleteBoard,deleteColumn,deepCopy,updateColumn} from '../../Funct_Reuse/Functions'; 
+import styles from './Board.css';
+import {addColumn,getBoard,getColumns,deleteBoard,deleteColumn,deepCopy,updateColumn} from '../../Funct_Reuse/Function'; 
 import Loader from '../Modals/Loader/Loader';
 import * as shortid from 'shortid';
 import CreateColumnModal from '../Modals/CreateColumnModal/CreateColumnModal'

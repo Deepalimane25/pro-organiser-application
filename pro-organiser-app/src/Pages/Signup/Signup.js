@@ -1,5 +1,5 @@
 import React, { useState,useContext } from "react";
-import styles from "./Signup.module.css";
+import styles from "./Signup.css";
 import {withRouter} from 'react-router';
 import { Link ,Redirect} from "react-router-dom";
 import {firebaseApp} from '../../Firebase/config';

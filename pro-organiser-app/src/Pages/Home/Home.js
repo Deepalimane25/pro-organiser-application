@@ -1,7 +1,7 @@
 import React, { useState, useEffect,useContext } from "react";
-import styles from "./Home.module.css";
+import styles from "./Home.css";
 import { Link } from "react-router-dom";
-import { getBoards } from "../../Funct_Reuse/Functions";
+import { getBoards } from "../../Funct_Reuse/Function";
 import Loader from "../Modals/Loader/Loader";
 import {AuthContext} from '../../Context/Authentication';
 

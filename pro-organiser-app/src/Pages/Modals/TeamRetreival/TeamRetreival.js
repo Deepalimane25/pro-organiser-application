@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './TeamRetreival.module.css';
+import styles from './TeamRetreival.css';
 
 function TeamRetreival({name}) {
     

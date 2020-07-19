@@ -1,5 +1,5 @@
 import React,{useState,useContext} from "react";
-import styles from "../Header/Header.module.css";
+import styles from "../Header/Header.css";
 import { NavLink,Link } from "react-router-dom";
 import {AuthContext} from '../../Context/Authentication';
 import { firebaseApp } from "../../Firebase/config";

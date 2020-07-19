@@ -1,5 +1,5 @@
 import React,{useState,useContext} from 'react';
-import styles from "./Login.module.css";
+import styles from "./Login.css";
 import {AuthContext} from '../../Context/Authentication';
 import { withRouter, Redirect,Link } from "react-router-dom";
 import firebase from 'firebase';
